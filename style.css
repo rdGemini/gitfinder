@@ -1,0 +1,84 @@
+body {
+  padding: 20px;
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 18px;
+  color: #fff; /* Light text color */
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #495057; /* Dark input background color */
+  color: #fff; /* Light text color */
+  border: 1px solid #ced4da; /* Border color */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.sharp-left-btn {
+  padding: 7px 20px 7px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #007bff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+  margin-top: 20px;
+  display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.repository-card {
+  background-color: #495057; /* Dark card background color */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light box shadow color */
+}
+
+.badge {
+  margin-right: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
